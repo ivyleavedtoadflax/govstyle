@@ -6,4 +6,4 @@
 ^\.travis\.yml$
 ^UD.zip$
 ^\.csv$
-^\.csv$
+^README\.Rmd$
