@@ -1,6 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^figure$
+^vignettes\/figure$
 ^README.md$
 ^\.travis\.yml$
 ^UD.zip$
