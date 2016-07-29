@@ -17,7 +17,7 @@ More functionality will be added in the future.
 
 ## A real life example
 
-In this vignette, we will reproduce two of the plots presented in the 2015 Statistical First Release (SFR) 39 from the Department of Education.
+In this vignette, we will reproduce two of the plots presented in the 2015 Statistical First Release (SFR) 39 from the Department for Education.
 This SFR deals with statistics relating to student absence and exclusion, and is available for download [here](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/468965/SFR39_2015_Text.pdf).
 
 ### Getting the data
@@ -362,7 +362,7 @@ p4
 
 ### Creating the second plot
 
-## Illness absence rates
+#### Illness absence rates
 
 Start with the full absence data. Filter to only NATIONAL values, then sum over years for the variables `sess_overall`, `sess_possible`, and `sess_auth_illness`. Then calculate the overall absence rate, and the illness absence rate, and finally gather this up into a long rather than a wide `data.frame` to allow easier plotting of colours
 
