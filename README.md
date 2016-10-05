@@ -8,6 +8,10 @@ A package for applying a [gov.uk](http://govuk-elements.herokuapp.com/) style to
 This package is in an early stage of development; the intended end point is that it should be fully compliant with the gov.uk style guide.
 The best source of docmentation is the [vignettes](vignettes/).
 
+## Requirements
+
+This can be installed either with `devtools::install_github('mangothecat/visualTest')` or xif you are unable to use `install_github`, download a zip of the latest version from [here]('https://github.com/UKGov-Data-Science/govstyle/archive/master.zip'] and use `devtools::install_local('path to zip file')`.
+
 ## Functions
 
 * `theme_gov()`: Theme to be applied to plots produced in [ggplot2]() to give a government statistics publication feel.
