@@ -1,6 +1,7 @@
 [![Stories in Ready](https://badge.waffle.io/UKGov-Data-Science/govstyle.png?label=ready&title=Ready)](https://waffle.io/UKGov-Data-Science/govstyle)
 [![Build Status](https://travis-ci.org/UKGov-Data-Science/govstyle.svg?branch=master)](https://travis-ci.org/UKGov-Data-Science/govstyle)
 [![codecov.io](http://codecov.io/github/UKGov-Data-Science/govstyle/coverage.svg?branch=master)](http://codecov.io/github/UKGov-Data-Science/govstyle?branch=master)
+[![GitHub tag](https://img.shields.io/github/tag/UKGov-Data-Science/govstyle.svg)]()
 
 # govstyle
 
