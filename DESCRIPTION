@@ -1,7 +1,7 @@
 Package: govstyle
 Type: Package
 Title: A ggplot2 theme in a gov.uk inspired style
-Version: 0.1.0
+Version: 0.1.1
 Date: 2016-06-07
 Authors@R: c(
     person("Matthew", "Upson", , "matthew.a.upson@gmail.com", c("aut", "cre"))
@@ -15,12 +15,12 @@ Suggests: dplyr,
           knitr,
           markdown,
           readr,
-          tidyr
+          tidyr,
+          visualTest
 Imports:  ggplot2,
           graphics,
           testthat,
           png,
-          devtools,
-          visualTest
+          devtools
 RoxygenNote: 5.0.1
 VignetteBuilder: knitr
