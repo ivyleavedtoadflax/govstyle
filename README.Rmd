@@ -1,7 +1,7 @@
-[![Stories in Ready](https://badge.waffle.io/UKGov-Data-Science/govstyle.png?label=ready&title=Ready)](https://waffle.io/UKGov-Data-Science/govstyle)
-[![Build Status](https://travis-ci.org/UKGov-Data-Science/govstyle.svg?branch=master)](https://travis-ci.org/UKGov-Data-Science/govstyle)
-[![codecov.io](http://codecov.io/github/UKGov-Data-Science/govstyle/coverage.svg?branch=master)](http://codecov.io/github/UKGov-Data-Science/govstyle?branch=master)
-[![GitHub tag](https://img.shields.io/github/tag/UKGov-Data-Science/govstyle.svg)]()
+[![Stories in Ready](https://badge.waffle.io/ukgovdatascience/govstyle.png?label=ready&title=Ready)](https://waffle.io/ukgovdatascience/govstyle)
+[![Build Status](https://travis-ci.org/ukgovdatascience/govstyle.svg?branch=master)](https://travis-ci.org/ukgovdatascience/govstyle)
+[![codecov.io](http://codecov.io/github/ukgovdatascience/govstyle/coverage.svg?branch=master)](http://codecov.io/github/ukgovdatascience/govstyle?branch=master)
+[![GitHub tag](https://img.shields.io/github/tag/ukgovdatascience/govstyle.svg)]()
 
 # govstyle
 
@@ -11,7 +11,7 @@ The best source of docmentation is the [vignettes](vignettes/).
 
 ## Requirements
 
-This can be installed either with `devtools::install_github('mangothecat/visualTest')` or xif you are unable to use `install_github`, download a zip of the latest version from [here]('https://github.com/UKGov-Data-Science/govstyle/archive/master.zip'] and use `devtools::install_local('path to zip file')`.
+This can be installed either with `devtools::install_github('mangothecat/visualTest')` or xif you are unable to use `install_github`, download a zip of the latest version from [here]('https://github.com/ukgovdatascience/govstyle/archive/master.zip'] and use `devtools::install_local('path to zip file')`.
 
 ## Functions
 
@@ -37,7 +37,7 @@ knitr::opts_chunk$set(
 
 library(ggplot2)
 library(dplyr)
-#devtools::install_github("UKGov-Data-Science/govstyle")
+#devtools::install_github("ukgovdatascience/govstyle")
 library(govstyle)
 
 

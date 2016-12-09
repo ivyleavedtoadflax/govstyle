@@ -10,7 +10,7 @@ Maintainer: Matthew Upson <matthew.a.upson@gmail.com>
 Description: Provides plotting funtions for reproducing plots in
     a more gov.uk friendly style than the default ggplot2
     settings.
-License: MIT + file LICENSE
+License: GPL-3
 Suggests: dplyr,
           knitr,
           markdown,
