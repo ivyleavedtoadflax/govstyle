@@ -7,3 +7,5 @@
 ^UD.zip$
 ^\.csv$
 ^README\.Rmd$
+^packrat/
+^\.Rprofile$
