@@ -6,3 +6,4 @@ UD.zip
 *.csv
 inst
 *.Rproj
+packrat/lib*/

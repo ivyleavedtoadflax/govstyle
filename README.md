@@ -6,12 +6,29 @@
 # govstyle
 
 A package for applying a [gov.uk](http://govuk-elements.herokuapp.com/) style to plots created in the R package [ggplot2](https://github.com/hadley/ggplot2).
-This package is in an early stage of development; the intended end point is that it should be fully compliant with the gov.uk style guide.
-The best source of docmentation is the [vignettes](vignettes/).
+This package *is in an early stage of development*; the intended end point is that it should be fully compliant with the gov.uk style guide.
 
-## Requirements
+This package turns plots from this: 
 
-This can be installed either with `devtools::install_github('mangothecat/visualTest')` or xif you are unable to use `install_github`, download a zip of the latest version from [here]('https://github.com/ukgovdatascience/govstyle/archive/master.zip'] and use `devtools::install_local('path to zip file')`.
+![Basic ggplot2 plot](https://github.com/ukgovdatascience/govstyle/raw/master/vignettes/figure/figure1-1.png)
+
+to this:
+
+![govstyle plot](https://raw.githubusercontent.com/ukgovdatascience/govstyle/master/vignettes/figure/figure1d-1.png)
+
+The best source of docmentation is the [vignettes](https://github.com/ukgovdatascience/govstyle/blob/master/vignettes/absence_statistics.md).
+ 
+## Installation
+
+To install, the package `devtools` is required, and can be installed with `install.packages('devtools')`.
+
+`govstyle` can then be installed using `devtools::install_github('ukgovdatascience/govstyle')`.
+Some users may not be able to use the `devtools::install_github()` commands as a result of network security settings.
+If this is the case, `govstyle` can be installed by downloading the [zip of the repository](https://github.com/ukgovdatascience/govstyle/archive/master.zip) and installing the package locally using `devtools::install_local(<path to zip file>)`.
+
+For testing purposes (not general usage), the package `visualTest` is required.
+This can be installed with `devtools::install_github('mangothecat/visualTest')`.
+For some users `devtools::install_local()` may also be required.
 
 ## Functions
 
@@ -20,6 +37,8 @@ This can be installed either with `devtools::install_github('mangothecat/visualT
 * `check_pal()`: Display the extended gov.uk palette in a pie chart.
 
 ## Examples
+
+See [Vignette](https://github.com/ukgovdatascience/govstyle/blob/master/vignettes/absence_statistics.md) for in depth usage examples.
 
 ### theme_gov
 
