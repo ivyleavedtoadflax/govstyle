@@ -1,5 +1,6 @@
 [![Stories in Ready](https://badge.waffle.io/ukgovdatascience/govstyle.png?label=ready&title=Ready)](https://waffle.io/ukgovdatascience/govstyle)
 [![Build Status](https://travis-ci.org/ukgovdatascience/govstyle.svg?branch=master)](https://travis-ci.org/ukgovdatascience/govstyle)
+[![Build status](https://ci.appveyor.com/api/projects/status/ra2p80x58kyct1v3/branch/master?svg=true)](https://ci.appveyor.com/project/ivyleavedtoadflax/govstyle/branch/master)
 [![codecov.io](http://codecov.io/github/ukgovdatascience/govstyle/coverage.svg?branch=master)](http://codecov.io/github/ukgovdatascience/govstyle?branch=master)
 [![GitHub tag](https://img.shields.io/github/tag/ukgovdatascience/govstyle.svg)]()
 
