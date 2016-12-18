@@ -115,7 +115,7 @@ theme_gov <- function(
     ## Axis title attributes. Adjustments of
 
     axis.title.y = ggplot2::element_text(hjust = 1, vjust = 1),
-    axis.title.x = ggplot2::element_text(hjust = 1, vjust = 6),
+    axis.title.x = ggplot2::element_text(hjust = 1, vjust = 0),
 
     ## Background attributes (currently all blank)
 

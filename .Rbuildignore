@@ -9,3 +9,4 @@
 ^README\.Rmd$
 ^packrat/
 ^\.Rprofile$
+^appveyor\.yml$
