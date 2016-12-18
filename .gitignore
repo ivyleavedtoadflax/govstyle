@@ -7,3 +7,4 @@ UD.zip
 inst
 *.Rproj
 packrat/lib*/
+packrat/src*/
