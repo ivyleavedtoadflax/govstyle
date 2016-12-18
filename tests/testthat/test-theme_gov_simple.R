@@ -1,13 +1,13 @@
-context('check_pal() works as expected')
+context('theme_gov() works with simple examples')
 
 test_that(
-  'check_pal() can replicate pie chart',
+  'theme_gov can replicate a rug and point plot',
   {
     
     # Check whether comparison file exists, and delete if so
     
-    test_png <- file.path('figures', 'test-check_pal_test.png')
-    ref_png <- file.path('figures', 'test-check_pal_reference.png')
+    ref_png <- file.path('figures', 'test-theme_gov-reference.png')
+    test_png <- file.path('figures', 'test-theme_gov-test.png')
     
     if (file.exists(test_png)) file.remove(test_png)
     
@@ -20,13 +20,22 @@ test_that(
     
     # Create a new figure as png
     
-    png(
-      file = test_png,
-      width = 480,
-      height = 480
+    p <- ggplot2::ggplot(
+      data = mtcars,
+      aes(
+        x = mpg,
+        y = wt
+      )
+    ) +
+      geom_point() +
+      theme_gov()
+    
+    ggsave(
+      width = 5,
+      height = 5,
+      filename = test_png,
+      plot = p
     )
-    check_pal()
-    dev.off()
     
     # Check that the new file was created
     
@@ -46,5 +55,6 @@ test_that(
       ),
       threshold = 1e-3
     )
+    
   }
 )

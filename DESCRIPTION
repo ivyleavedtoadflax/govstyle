@@ -1,7 +1,7 @@
 Package: govstyle
 Type: Package
 Title: A ggplot2 theme in a gov.uk inspired style
-Version: 0.1.1
+Version: 0.1.2
 Date: 2016-06-07
 Authors@R: c(
     person("Matthew", "Upson", , "matthew.upson@digital.cabinet-office.gov.uk", c("aut", "cre"))
@@ -11,7 +11,8 @@ Description: Provides plotting funtions for reproducing plots in
     a more gov.uk friendly style than the default ggplot2
     settings.
 License: GPL-3
-Depends:  ggplot2
+Depends:  R (>= 2.10),
+	  ggplot2
 Suggests: dplyr,
           knitr,
           markdown,

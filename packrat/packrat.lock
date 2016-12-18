@@ -28,6 +28,12 @@ Source: CRAN
 Version: 0.12.8
 Hash: 436ad5c23fad4e22224c7ac2fc82b049
 
+Package: assertr
+Source: CRAN
+Version: 1.0.2
+Hash: 2f50983e1b7750ea4b1f40bdf844153f
+Requires: dplyr, lazyeval
+
 Package: assertthat
 Source: CRAN
 Version: 0.1
@@ -299,6 +305,11 @@ Package: withr
 Source: CRAN
 Version: 1.0.2
 Hash: 774eb7be9087cdc24b53b74e5359cfac
+
+Package: xtable
+Source: CRAN
+Version: 1.8-2
+Hash: 7293235cfcc14cdff1ce7fd1a0212031
 
 Package: yaml
 Source: CRAN
