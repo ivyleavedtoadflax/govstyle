@@ -1,10 +1,41 @@
+# Set language as R
+
 language: r
+
+# Test on multiple releases
+
+r: 
+  - oldrel
+  - release
+  - devel
+
+# Enable container builds
+
+sudo: false
+
+# Be scrupulous about warnings
+
+warnings_are_errors: true
+
+# Speed up build by caching packages
+
 cache: packages
-sudo: required
+
+# Pre-install the following packages
+
 r_packages:
   - rmarkdown
 r_github_packages:
   - jimhester/covr
   - MangoTheCat/visualTest
+
+# Run code coverage
+
 after_success:
   - Rscript -e 'covr::codecov()'
+
+# Check build on osx
+
+os:
+  - linux
+  - osx

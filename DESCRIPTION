@@ -11,8 +11,7 @@ Description: Provides plotting funtions for reproducing plots in
     a more gov.uk friendly style than the default ggplot2
     settings.
 License: GPL-3
-Depends:  R (>= 2.10),
-	  ggplot2
+Depends:  ggplot2
 Suggests: dplyr,
           knitr,
           markdown,
