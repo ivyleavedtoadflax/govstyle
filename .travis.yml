@@ -13,9 +13,10 @@ r:
 
 sudo: false
 
-# Be scrupulous about warnings
+# Be relaxed about warnings to overcome issues with
+# govt users on old versions of R
 
-warnings_are_errors: true
+warnings_are_errors: false
 
 # Speed up build by caching packages
 

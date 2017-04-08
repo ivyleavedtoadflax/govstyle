@@ -11,10 +11,12 @@ install:
   ps: Bootstrap
 
 # Adapt as necessary starting from here
+# Need to undo warnings as errors due to build issues
+# on appveyor
 
 environment:
   global:
-    WARNINGS_ARE_ERRORS: 1
+    WARNINGS_ARE_ERRORS: 0
 
   matrix:
   - R_VERSION: devel
