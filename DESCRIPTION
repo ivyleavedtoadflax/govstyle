@@ -17,11 +17,11 @@ Suggests: dplyr,
           markdown,
           readr,
           tidyr,
-          visualTest
-Imports:  graphics,
-          testthat,
+          visualTest,
+          devtools,
           png,
-          devtools
+          testthat
+Imports:  graphics
 Remotes:  github::mangothecat/visualTest
 BugReports: https://github.com/ukgovdatascience/govstyle/issues
 Encoding: UTF-8
